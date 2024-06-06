@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.checkZarplata = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // checkZarplata
+            // 
+            this.checkZarplata.AutoSize = true;
+            this.checkZarplata.Location = new System.Drawing.Point(633, 12);
+            this.checkZarplata.Name = "checkZarplata";
+            this.checkZarplata.Size = new System.Drawing.Size(155, 17);
+            this.checkZarplata.TabIndex = 0;
+            this.checkZarplata.Text = "Заплатить мне 15 рублей";
+            this.checkZarplata.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkZarplata);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.CheckBox checkZarplata;
     }
 }
 
